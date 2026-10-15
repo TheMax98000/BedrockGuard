@@ -32,6 +32,8 @@ webhook, and a configurable punishment command when a check reaches its maximum 
 - Geyser on the same server (proxy setups such as Velocity + Geyser have not been tested yet)
 - Timer and hover detection need **1.21.2+**: older versions don't send the end-of-tick packet they rely on
 
+Alerts, commands and logs are available in English and French.
+
 ## Editions
 
 - **Free**: every check, up to **5 Bedrock players** analysed at the same time

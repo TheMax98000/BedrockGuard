@@ -7,10 +7,11 @@ files when you update the plugin.
 
 | Key | Default | Description |
 |---|---|---|
+| `language` | `en` | Language of alerts, commands and logs: `en` or `fr` |
 | `debug` | `false` | Log every analysed movement and packet (diagnostics only, very verbose) |
 | `violations.decay-per-second` | `0.1` | VL lost per second, for every check |
 | `punish.max-vl` | `10` | VL at which the punishment command runs (the VL then resets to 0) |
-| `punish.command` | `kick {player} …` | Console command; `{player}` and `{check}` are replaced. Empty = no punishment |
+| `punish.command` | `kick {player} [BedrockGuard] Suspicious behaviour ({check})` | Console command; `{player}` and `{check}` are replaced. Empty = no punishment |
 | `discord.webhook-url` | `""` | Discord webhook URL (channel → Edit → Integrations → Webhooks). Empty = disabled |
 | `discord.min-interval-seconds` | `30` | Minimum delay between two messages for the same player and check. Punishments are always sent |
 
