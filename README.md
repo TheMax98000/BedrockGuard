@@ -29,7 +29,8 @@ webhook, and a configurable punishment command when a check reaches its maximum 
 - Paper or Folia **1.21 → 26.x**, Java 21+ (tested on Paper 1.21.11, Paper 26.3 and Folia 26.3)
 - [Floodgate](https://geysermc.org/download) and [PacketEvents](https://modrinth.com/plugin/packetevents) 2.14+
   installed as plugins
-- Geyser on the same server (proxy setups such as Velocity + Geyser have not been tested yet)
+- Geyser on the server, or on a Velocity proxy (tested with Velocity 4.2 + Geyser/Floodgate on the proxy and
+  Floodgate on the game server, modern forwarding). BungeeCord has not been tested yet.
 - Timer and hover detection need **1.21.2+**: older versions don't send the end-of-tick packet they rely on
 
 Alerts, commands and logs are available in English and French.
