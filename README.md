@@ -43,7 +43,7 @@ Alerts, commands and logs are available in English and French.
 ## Editions
 
 - **Free**: every check, up to **5 Bedrock players** analysed at the same time
-- **Full**: no player limit
+- **Full**: no player limit, [available on Payhip](https://payhip.com/b/PlDW4)
 
 ## Documentation
 
