@@ -1,3 +1,5 @@
+<img src="docs/logo.png" alt="BedrockGuard" width="160" align="right">
+
 # BedrockGuard
 
 Anti-cheat for **Bedrock players** on Java servers running Geyser/Floodgate.
