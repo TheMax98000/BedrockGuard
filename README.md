@@ -31,6 +31,9 @@ webhook, and a configurable punishment command when a check reaches its maximum 
   installed as plugins
 - Geyser on the server, or on a proxy: tested with **Velocity** 4.2 (modern forwarding) and **BungeeCord** build 2104
   (ip_forward), Geyser + Floodgate on the proxy and Floodgate on the game server
+- Keep Geyser's `forward-player-ping` at its default `false`: with `true`, Paper kicks real Bedrock clients
+  ("keepalive response without matching challenge"). With Geyser on the game server, BedrockGuard reads the real
+  Bedrock ping through the Geyser API
 - Timer and hover detection need **1.21.2+**: older versions don't send the end-of-tick packet they rely on
 
 Alerts, commands and logs are available in English and French.

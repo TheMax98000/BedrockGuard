@@ -32,7 +32,8 @@ Every check has `enabled: true|false`.
 | `checks.reach.max-distance` | `3.0` | Maximum eye → hitbox distance (vanilla survival: 3) |
 | `checks.reach.hitbox-margin` | `0.1` | Margin added to the target's hitbox |
 | `checks.reach.extra-compensation-ms` | `150` | Compensation window added to the attacker's ping (ms) |
-| `checks.reach.cancel-hit` | `true` | Cancel out-of-reach hits |
+| `checks.reach.mob-extra-distance` | `0.6` | Extra distance allowed on mobs, whose positions are not rewound (they move during the attacker's latency) |
+| `checks.reach.cancel-hit` | `true` | Cancel out-of-reach hits on players (hits on mobs are only flagged) |
 | `checks.nuker.max-per-tick` | `1` | Blocks broken in the same tick (a legitimate player breaks one) |
 | `checks.nuker.max-per-second` | `20` | Blocks broken per second |
 | `checks.scaffold.max-per-tick` | `1` | Blocks placed in the same tick |
