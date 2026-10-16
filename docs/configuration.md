@@ -9,6 +9,7 @@ files when you update the plugin.
 |---|---|---|
 | `language` | `en` | Language of alerts, commands and logs: `en` or `fr` |
 | `debug` | `false` | Log every analysed movement and packet (diagnostics only, very verbose) |
+| `update-check` | `true` | At startup, ask the GitHub releases of this repository whether a newer version exists, and tell admins (`bedrockguard.admin`) when they join. One request per startup, nothing is sent about your server |
 | `violations.decay-per-second` | `0.1` | VL lost per second, for every check |
 | `punish.max-vl` | `10` | VL at which the punishment command runs (the VL then resets to 0) |
 | `punish.command` | `kick {player} [BedrockGuard] Suspicious behaviour ({check})` | Console command; `{player}` and `{check}` are replaced. Empty = no punishment |
