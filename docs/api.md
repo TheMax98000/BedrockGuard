@@ -18,7 +18,7 @@ dependencies {
 ```xml
 <!-- pom.xml -->
 <dependency>
-  <groupId>fr.mcplugins</groupId>
+  <groupId>tomokisan</groupId>
   <artifactId>bedrockguard</artifactId>
   <version>1.0.0</version>
   <scope>system</scope>
@@ -65,8 +65,8 @@ These methods can be called from any thread.
 Ignore movement checks while a player is in a minigame with launch pads, and log the others:
 
 ```java
-import fr.mcplugins.bedrockguard.BedrockGuardApi;
-import fr.mcplugins.bedrockguard.ViolationEvent;
+import tomokisan.bedrockguard.BedrockGuardApi;
+import tomokisan.bedrockguard.ViolationEvent;
 import java.util.Set;
 import java.util.UUID;
 import org.bukkit.event.EventHandler;
