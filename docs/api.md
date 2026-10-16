@@ -5,13 +5,13 @@ cancel them, or read violation levels (VL).
 
 ## Setup
 
-The API ships inside the plugin jar. Put `BedrockGuard-<version>.jar` in your project (for example under `libs/`)
+The API ships inside the plugin jar. Put `bedrockguard-<version>.jar` in your project (for example under `libs/`)
 and compile against it without shading it:
 
 ```kotlin
 // build.gradle.kts
 dependencies {
-    compileOnly(files("libs/BedrockGuard-1.0.0.jar"))
+    compileOnly(files("libs/bedrockguard-1.0.0.jar"))
 }
 ```
 
@@ -22,7 +22,7 @@ dependencies {
   <artifactId>bedrockguard</artifactId>
   <version>1.0.0</version>
   <scope>system</scope>
-  <systemPath>${project.basedir}/libs/BedrockGuard-1.0.0.jar</systemPath>
+  <systemPath>${project.basedir}/libs/bedrockguard-1.0.0.jar</systemPath>
 </dependency>
 ```
 
