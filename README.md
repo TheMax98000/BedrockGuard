@@ -54,3 +54,8 @@ Alerts, commands and logs are available in English and French.
 ## Support
 
 Report bugs and false positives in [Issues](../../issues). The source code of the anti-cheat is not public.
+
+## Also by the author
+
+[BedrockAssist](https://github.com/TheMax98000/BedrockAssist) (free): native Bedrock menus for what Geyser cannot translate
+(links, commands, enchantments, anvil, villagers), [available on SpigotMC](https://www.spigotmc.org/resources/bedrockassist.139746/).
