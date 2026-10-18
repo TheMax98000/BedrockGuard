@@ -42,7 +42,7 @@ Alerts, commands and logs are available in English and French.
 
 ## Editions
 
-- **Free**: every check, up to **5 Bedrock players** analysed at the same time, [available on SpigotMC](https://www.spigotmc.org/resources/bedrockguard-free.139718/)
+- **Free**: every check, up to **5 Bedrock players** analysed at the same time, available on [SpigotMC](https://www.spigotmc.org/resources/bedrockguard-free.139718/) and [CurseForge](https://www.curseforge.com/minecraft/bukkit-plugins/bedrockguard-free)
 - **Full**: no player limit, [available on Payhip](https://payhip.com/b/PlDW4)
 
 ## Documentation
