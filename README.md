@@ -22,9 +22,33 @@ BedrockGuard analyses **only Floodgate players** and works alongside your existi
 | Scaffold | Blocks placed in mid-air, several per tick, or too many per second |
 | AutoClicker | Click rate above a human limit |
 | BadPackets | Values no legitimate client can send |
+| Velocity | Knockback ignored or reduced (AntiKnockback) |
+| KillAura | Several targets hit in the same tick, hits on a target far outside the player's view, and (experimental) hits on a hidden verification bot |
 
 Each check raises a violation level (VL) that decays over time. You get staff alerts in game, an optional Discord
 webhook, and a configurable punishment command when a check reaches its maximum VL.
+
+The combat checks (Velocity, KillAura) **only alert** by default: they never cancel a hit and do not count towards
+the punishment until you set `punish: true` for them. Their alerts show the measured values and the player's last
+hits, and `/bguard stats` gives alerts per hour of play for each input mode (touch, controller, keyboard and mouse),
+so you can check them on your own server first.
+
+## What it cannot see
+
+BedrockGuard only sees what Geyser forwards to the server, as Java packets:
+
+- Touch players hit wherever they tap, not where the camera points. The angle check therefore only catches hits far
+  outside the field of view (behind the player). An aura that hits inside the field of view without turning the
+  camera, at a legal distance and on one target at a time, is only caught by the verification bot.
+- A moderately enlarged hitbox (Hitbox cheat) is not detected; Reach still caps the distance.
+- No fine aim analysis (aimbot, smoothed aim): touch and controller aim are too different from a mouse to tell
+  apart without false positives.
+- Click rates above 20 per second cannot be measured: Geyser forwards one swing per tick.
+- Velocity does not judge a hit when the player jumps or hits back right after it (jump reset and sprint hits
+  legitimately reduce knockback), or when the player rides, swims, climbs or stands against a wall. A cheat that
+  cancels knockback while the player walks backward looks like a normal knockback.
+- Behind a proxy (Geyser on Velocity or BungeeCord), the real ping and the live input mode are unknown: Velocity
+  waits longer before judging, and `/bguard info` shows "cautious mode".
 
 ## Requirements
 
