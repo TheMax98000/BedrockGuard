@@ -8,7 +8,7 @@ Java anti-cheats (Grim, Vulcan…) are built around the Java client. Bedrock pla
 different movement, touch controls and timing, so those anti-cheats either exempt them or flag them by mistake.
 BedrockGuard analyses **only Floodgate players** and works alongside your existing Java anti-cheat.
 
-> **Status:** version 1.0.1 released.
+> **Status:** version 1.1.0 released (combat detection).
 
 ## Checks
 
