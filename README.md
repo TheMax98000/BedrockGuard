@@ -10,7 +10,7 @@ BedrockGuard analyses **only Floodgate players** and works alongside your existi
 
 [![BedrockGuard demo: Bedrock cheaters caught](https://img.youtube.com/vi/5URQNkaMSlM/hqdefault.jpg)](https://youtu.be/5URQNkaMSlM)
 
-> **Status:** version 1.1.0 (combat detection) on all stores.
+> **Status:** version 1.1.1 released (cleaner Discord alerts).
 
 ## Checks
 
